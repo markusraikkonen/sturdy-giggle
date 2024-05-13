@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "yliveto",
+	"version": "${version}",
+	"name": "yliveto",
+	"description": "ylliveto kärijie cha cha!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/yliveto/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.yliveto.Yliveto"
+		],
+		"client": [
+			"name.yliveto.YlivetoClient"
+		],
+		"fabric-datagen": [
+			"name.yliveto.YlivetoDataGenerator"
+		],
+		"terrablender": [
+			"net.name.yliveto.world.biome.ModTerrablenderAPI"
+		]
+	},
+	"mixins": [
+		"yliveto.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
