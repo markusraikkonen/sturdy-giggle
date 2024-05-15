@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "yliveto:block/zaza_block"
-  }
-}

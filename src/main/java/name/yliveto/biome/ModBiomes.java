@@ -54,4 +54,9 @@ public class ModBiomes {
                         .build())
                 .build();
     }
+
+
+    public static void registerModBiomes() {
+        Yliveto.LOGGER.info("Registering Mod Biomes for " + Yliveto.MOD_ID);
+    }
 }

@@ -25,7 +25,7 @@
 			"name.yliveto.YlivetoDataGenerator"
 		],
 		"terrablender": [
-			"net.name.yliveto.world.biome.ModTerrablenderAPI"
+			"name.yliveto.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [
