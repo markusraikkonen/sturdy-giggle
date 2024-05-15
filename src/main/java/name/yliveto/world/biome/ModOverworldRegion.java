@@ -1,4 +1,4 @@
-package name.yliveto.biome;
+package name.yliveto.world.biome;
 
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.registry.Registry;

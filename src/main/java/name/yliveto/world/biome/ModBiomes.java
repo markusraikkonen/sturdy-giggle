@@ -1,4 +1,4 @@
-package name.yliveto.biome;
+package name.yliveto.world.biome;
 
 import name.yliveto.Yliveto;
 import net.minecraft.registry.Registerable;

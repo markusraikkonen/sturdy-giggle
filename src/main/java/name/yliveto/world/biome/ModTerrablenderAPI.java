@@ -1,7 +1,7 @@
-package name.yliveto.biome;
+package name.yliveto.world.biome;
 
 import name.yliveto.Yliveto;
-import name.yliveto.biome.surface.ModMaterialRules;
+import name.yliveto.world.biome.surface.ModMaterialRules;
 import net.minecraft.util.Identifier;
 import terrablender.api.Regions;
 import terrablender.api.SurfaceRuleManager;

@@ -1,6 +1,6 @@
-package name.yliveto.biome.surface;
+package name.yliveto.world.biome.surface;
 
-import name.yliveto.biome.ModBiomes;
+import name.yliveto.world.biome.ModBiomes;
 import name.yliveto.block.ModBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

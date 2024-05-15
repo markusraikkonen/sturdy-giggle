@@ -1,6 +1,6 @@
 package name.yliveto;
 
-import name.yliveto.biome.ModBiomes;
+import name.yliveto.world.biome.ModBiomes;
 import name.yliveto.block.ModBlocks;
 import name.yliveto.item.ModItems;
 import net.fabricmc.api.ModInitializer;
