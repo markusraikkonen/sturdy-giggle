@@ -50,6 +50,11 @@ public class ModBiomes {
                 .spawnSettings(spawnBuilder.build())
                 .effects((new BiomeEffects.Builder())
                         .fogColor(0x22a1e6)
+                        .waterColor(0xe82e3b)
+                        .waterFogColor(0xbf1b26)
+                        .skyColor(0x30c918)
+                        .grassColor(0x7f03fc)
+                        .foliageColor(0xd203fc)
                         .moodSound(BiomeMoodSound.CAVE)
                         .build())
                 .build();
