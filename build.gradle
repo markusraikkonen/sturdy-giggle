@@ -25,15 +25,7 @@ fabricApi {
 	configureDataGeneration()
 }
 
-sourceSets {
-	main {
-		resources {
-			srcDirs += [
-					'src/main/generated'
-			]
-		}
-	}
-}
+
 
 dependencies {
 	// To change the versions see the gradle.properties file
