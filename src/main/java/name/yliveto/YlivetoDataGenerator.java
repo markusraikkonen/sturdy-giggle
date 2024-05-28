@@ -18,6 +18,7 @@ public class YlivetoDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModModelProvider::new);
 	}
 
 	@Override
