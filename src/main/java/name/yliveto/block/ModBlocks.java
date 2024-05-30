@@ -1,6 +1,7 @@
 package name.yliveto.block;
 
 import name.yliveto.Yliveto;
+import name.yliveto.block.custom.Blender;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -19,6 +20,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.MOSS_BLOCK)));
     public static final Block DONER_BLOCK = registerBlock("doner_block",
             new Block(FabricBlockSettings.copyOf(Blocks.WET_SPONGE)));
+    public static final Block BLENDER = registerBlock("blender",
+            new Blender(FabricBlockSettings.copyOf(Blocks.POLISHED_DEEPSLATE)));
 
 
     private static Block registerBlock(String name, Block block) {

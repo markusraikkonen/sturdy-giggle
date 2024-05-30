@@ -1,5 +1,7 @@
 package name.yliveto;
 
+import name.yliveto.block.entity.ModBlockEntities;
+import name.yliveto.screen.ModScreenHandlers;
 import name.yliveto.world.biome.ModBiomes;
 import name.yliveto.block.ModBlocks;
 import name.yliveto.item.ModItems;
@@ -18,5 +20,7 @@ public class Yliveto implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModBiomes.registerModBiomes();
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerScreenHandlers();
 	}
 }

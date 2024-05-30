@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WWW",
+    " B "
+  ],
+  "result": {
+    "item": "yliveto:bucketofoatmilk"
+  },
+  "show_notification": true
+}

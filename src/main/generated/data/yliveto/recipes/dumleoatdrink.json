@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "yliveto:caramel"
+    },
+    "O": {
+      "item": "yliveto:bucketofoatmilk"
+    },
+    "P": {
+      "item": "yliveto:cocoapowder"
+    }
+  },
+  "pattern": [
+    "CPC",
+    "POP",
+    "CPC"
+  ],
+  "result": {
+    "item": "yliveto:dumleoatdrink"
+  },
+  "show_notification": true
+}
